@@ -145,6 +145,7 @@ h5 {
     left: 386px;
     border-radius: 8px;
     background-color: aliceblue;
+    
 }
 
 .block__one {
@@ -153,12 +154,31 @@ h5 {
     align-items: center;
     display: flex;
     /* width: 85%; */
+    border: 1.5px solid transparent;
     background-color: #eadddd;
-    margin: 10px;
+    margin: 1px;
     border-radius: 8px;
     position: relative;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 14px 16px 16px 16px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    /* display: inline-block */
+
+    /* .zero_state_item {
+        display: flex;
+        flex-direction: column;
+       
+        gap: 4px;
+        width: 100%;
+        border: 1.5px solid transparent;
+        gap: 16px;
+        cursor: default;
+        box-shadow: var(--cib-shadow-card);
+        background: var(--cib-color-background-surface-card-primary);
+        border-radius: var(--cib-border-radius-large);
+        box-sizing: border-box;
+        text-align: left;
+    } */
 }
 
 .block__two {
