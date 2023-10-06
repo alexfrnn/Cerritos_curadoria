@@ -37,8 +37,8 @@ h5 {
 .aside__menu {
     background-color: #475d5b;
     position: fixed;
-    width: 90px;
-    height: 1024px;
+    width: 100%;
+    height: 100%;
     padding: 1rem;
     top: 0;
     left: 0;
@@ -56,9 +56,11 @@ h5 {
     position: fixed;
     top: 0;
     left: 0;
+    text-align: left;
+    text-decoration: none;
 }
 
-.header__menu__link {
+.nav_textmenu__link {
     font-family: 'Ysabeau Infant', sans-serif;
     font-size: 31px;
     font-weight: 400;
@@ -75,19 +77,22 @@ h5 {
     padding: 0 14px;
 }
 
-
 .box-content {
     width: 530px;
     height: 400px;
     position: top;
     margin: 191px 94px 416px 816px;
     border-radius: 8px;
-    background-color: #eadddd;
+    background-color: #f3ede4;
 }
 
-.title_box{
+.title_box {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
     margin: 48px 0 15px 10px;
     font-size: 1.953rem;
+    color: #042630;
 }
 
 form.forms__curadoria {
@@ -100,41 +105,66 @@ form.forms__curadoria {
     background-color: purple;
 }
 
-.first_form {
-    font-family: 'Ysabeau Infant', sans-serif;
-    font-size: 20px;
-    font-weight: 100;
-    line-height: 1;
-    color: black;
-    text-decoration: none;
-    cursor: default;
-}
-
 .text__form {
-    margin: 3px 3px 0px 10px;
-    font-size: 1.563rem;
-}
-
-textarea {
     font-family: 'Ysabeau Infant', sans-serif;
-    font-size: 1.953rem;
     font-weight: 400;
     line-height: 1.3;
-    color: green;
+    font-size: 28px;
+    font-size: 1.2rem;
+    color: #f3ede4;
+    margin: 3px 3px 0px 10px;
+}
+
+.inputs__forms {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size:20px;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 19px;
+    color: #475d5b;
     border-radius: 8px;
+    border-color: transparent;
     text-decoration: none;
     margin: 0 0 0 10px;
     position: static;
 }
 
-button {
+.inputs__textarea {
     font-family: 'Ysabeau Infant', sans-serif;
-    font-size: 31px;
+    font-size:20px;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 19px;
+    color: #475d5b;
+    border-radius: 8px;
+    border-color: transparent;
+    text-decoration: none;
+    margin: 0 0 0 10px;
+    position: static;
+    max-width: 45%;
+    max-height: 25%;
+}
+
+.button__forms {
+    justify-content: center;
+    background-color: #f3ede4;
+    border-radius: 8px;
+    line-height: 1;
+    border-color: transparent;
+    text-decoration: none;
+    margin: 0 0 0 10px;
+    position: static;
+}
+.text_button{
+    font-family: 'Ysabeau Infant', sans-serif;
     font-weight: 400;
     line-height: 1.3;
-    color: green;
-    text-decoration: none;
-    margin: 0 0 80px 0;
+    font-weight: 400;
+    justify-content: center;
+    font-size: 21px;
+    margin: auto;
+    color: #475d5b;
+   
 }
 
 .block {
