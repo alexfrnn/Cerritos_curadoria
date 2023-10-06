@@ -10,25 +10,37 @@
 
 <body>
     <header class="header">
-        <nav class="nav-main">
-            <a class="header__menu__link" href="index.html">Curadoria</a>
-        </nav>
+        <div class="div_nav-main">
+            <nav>
+                <a class="nav_textmenu__link" href="index.html">Curadoria</a>
+            </nav>
+        </div>
     </header>
     <main class="main__content">
         <div class="box-content">
-            <h3 class="title_box">Curadoria Cerritos</h3>        
-            <div>
+            <h3 class="title_box">Curadoria Cerritos</h3>
+            <div class="div-forms_curadoria">
                 <form class="forms__curadoria">
-                    <label class="first_form">
-                        <h4 class="text__form">escreva sua sugestao abaixo:</h4>
-                        <textarea name="message"></textarea>
+                    <label>
+                        <h4 class="text__form">Nome:</h4>
+                        <input class="inputs__forms" type="text" name="name">
                     </label>
-                    <button type="submit">Enviar</button>
+                    <label>
+                        <h4 class="text__form">E-mail:</h4>
+                        <input class="inputs__forms" type="email" name="email">
+                    </label>
+                    <label>
+                        <h4 class="text__form">Escreva sua sugestão:</h4>
+                        <textarea class="inputs__textarea" name="message"></textarea>
+                    </label>
+                    <button class="button__forms" type="submit">
+                        <h5 class="text_button">Enviar</h5>
+                    </button>
                 </form>
             </div>
-            
+
         </div>
-        
+
     </main>
 
     <footer>
