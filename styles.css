@@ -193,7 +193,7 @@ body {
 }
 
 .box__content_index {
-    display: inline-flexbox;
+    display: flex;
     justify-content: center;
     box-sizing: border-box;
     flex-wrap: wrap;
