@@ -81,6 +81,27 @@ body {
     margin: 0px;
 }
 
+.suggestions__text{
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: 100;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #FFFFFE;
+    text-decoration: none;
+}
+
+.suggestions__link{
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: 100;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #CFDFDB;
+    /* background-color: #042630; */
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
 .box-content {
     width: 530px;
     height: 400px;
@@ -366,6 +387,17 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
+
+    .header__menu__link{
+        font-family: 'Ysabeau Infant', sans-serif;
+        font-weight: 100;
+        font-size: 19px;
+        line-height: 1;
+        color: #FFFFFE;
+        text-decoration: none;
+        margin: 1px;
+    }
+
     .aside__menu {
         display: flex;
         justify-content: left;
@@ -465,6 +497,28 @@ body {
 
 
 @media screen and (max-width: 1200px) {
+
+    .suggestions__text{
+        font-family: 'Ysabeau Infant', sans-serif;
+        font-weight: 100;
+        font-size: 19px;
+        line-height: 1;
+        color: #FFFFFE;
+        text-decoration: none;
+    }
+    
+    .suggestions__link{
+        font-family: 'Ysabeau Infant', sans-serif;
+        font-weight: 100;
+        font-size: 15px;
+        line-height: 1;
+        color: #042630;
+        background-color: #CFDFDB;
+        border-radius: 8px;
+        text-decoration: none;
+    }
+    
+
     .box__content_index {
         display: inline-block;
         box-sizing: border-box;
@@ -593,13 +647,11 @@ body {
     }
     .text_footer{
         font-size: 1.2rem;
-        font-weight: 300;
         line-height: 1.1;
         margin: 10px;
         position: relative;
-        margin-block-start: 10px;
         margin-block-end: 20px;
-        margin-inline-start: 20px;
+        margin-block-start: 340px;
         margin-inline-end: 0px;
     }
     .link__footer {
