@@ -2,48 +2,75 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cerritos</title>
     <link rel="stylesheet" href="styles.css" media="screen">
 </head>
 
 <body>
-    <header class="header">
+    <header class="header__about">
         <div class="div_nav-main">
             <nav>
-                <a class="nav_textmenu__link" href="index.html">Curadoria</a>
+                <a class="nav_textmenu__link" href="index.html">Curadoria</a> <img alt="File folder emoji" src="/Filefolder.png">             
             </nav>
         </div>
     </header>
     <main class="main__content">
         <div class="box-content">
-            <h3 class="title_box">Curadoria Cerritos</h3>
-            <div class="div-forms_curadoria">
+            <h3 class="title_box">Sobre</h3>
+            <h3 class="text__about">
+                Através da curadoria você pode descobrir muitos conteúdos e recursos úteis o seu dia a dia. Na curadoria há desde cursos até ferramentas recém lançadas ou pouco exploradas.
+                <p class="paragrafo">Se tiver algo para acrescentar, nos envie por este formulário:</p>
+            </h3>
+            <div>
                 <form class="forms__curadoria">
+                    <div class="row">
+                        <div>
+                            <label for="firstName">
+                                <h4 class="text_label__form">Primeiro nome:*</h4>
+                                <input formcontrolname="name" id="firstName" autocomplete="name" maxlength="64"
+                                    minlength="1" type="text" name="name" aria-label="First Name" spellcheck="false"
+                                    class="inputs__forms" data-form-type="name,first">
+                            </label>
+                        </div>
+                        <div class="row-2">
+                            <label for="lastName">
+                                <h4 class="text_label__form">Segundo nome:</h4>
+                            </label>
+                            <div>
+                                <input formcontrolname="lastName" id="lastName" autocomplete="family-name"
+                                    maxlength="64" minlength="1" name="lastName" type="text" aria-label="Last Name"
+                                    spellcheck="false" class="inputs__forms" data-form-type="name,last">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label>
+                            <h4 class="text_label__form">E-mail:*</h4>
+                            <input formcontrolname="email" type="text" autocomplete="email" aria-label="Email"
+                                name="email" class="inputs__forms" spellcheck="false">
+                        </label>
+                    </div>
                     <label>
-                        <h4 class="text__form">Nome:</h4>
-                        <input class="inputs__forms" type="text" name="name">
+                        <h4 class="text_label__form">Sua sugestão:</h4>
+                        <div>
+                            <textarea type="text" maxlength="139" minlength="14" data-form-type="text" spellcheck="true"
+                                name="message" class="inputs__textarea"></textarea>
+                        </div>
                     </label>
-                    <label>
-                        <h4 class="text__form">E-mail:</h4>
-                        <input class="inputs__forms" type="email" name="email">
-                    </label>
-                    <label>
-                        <h4 class="text__form">Sua sugestão:</h4>
-                        <textarea class="inputs__textarea" name="message"></textarea>
-                    </label>
-                    <button class="button__forms" type="submit">
-                        <h5 class="text_button">Enviar</h5>
-                    </button>
+                    <div>
+                        <button class="button__forms" type="submit">
+                            <h5 class="text_button">Enviar</h5>
+                        </button>
+                    </div>
                 </form>
             </div>
-
         </div>
-
     </main>
-
-    <footer>
+    <footer id="footer" class="page-footer">
+        <h5 class="text_footer"> made by<a class="link__footer" href="https://github.com/alexfrnn"> alexfrnn</a>
+        </h5>
     </footer>
 </body>
 
