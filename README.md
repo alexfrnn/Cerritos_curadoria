@@ -5,7 +5,7 @@ Este é um projeto simples de desenvolvimento de um site usando HTML e CSS. No s
 ## Navegação
 
 - Página inicial: Início com widgets com links para conteúdos.
-- Página com Formulário: Seção com formulário para envio de sugestões e página sobre. 
+- Página com Formulário: Seção com formulário para envio de sugestões e sobre. 
 
 ## Funcionalidades
 
