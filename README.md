@@ -18,7 +18,7 @@ Este é um projeto simples de desenvolvimento de um site usando HTML e CSS. No s
 
 ## Como executar o projeto
 
-1. Abra um '`terminal` de sua preferência.
+1. Abra um `terminal` de sua preferência.
 2. Escolha o diretório onde será clonado.
 3. Execute o seguinte trecho para obter o repositório em sua máquina local.
 ```
