@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Ysabeau+Infant:400');
 
-
-
 html {
     width: 100%;
     font-size: 100%;
 }
-
 
 body {
     display: flex;
@@ -33,7 +30,7 @@ body {
     background-color: #475d5b;
 }
 
-.header__menu__link{
+.header__menu__link {
     font-family: 'Ysabeau Infant', sans-serif;
     font-weight: 100;
     font-size: 28px;
@@ -80,7 +77,7 @@ body {
     margin: 0px;
 }
 
-.suggestions__text{
+.suggestions__text {
     font-family: 'Ysabeau Infant', sans-serif;
     font-weight: 100;
     font-size: 1.4rem;
@@ -89,7 +86,7 @@ body {
     text-decoration: none;
 }
 
-.suggestions__link{
+.suggestions__link {
     font-family: 'Ysabeau Infant', sans-serif;
     font-weight: 100;
     font-size: 1.4rem;
@@ -98,7 +95,6 @@ body {
     border-radius: 8px;
     text-decoration: none;
 }
-
 
 .box-content {
     width: 530px;
@@ -119,8 +115,6 @@ body {
     margin-block-start: 2px;
     margin-block-end: 0px;
 }
-
-
 
 .title_content_index {
     display: flex;
@@ -265,94 +259,67 @@ body {
     flex-wrap: wrap;
 }
 
-.box__one {
-    width: 390px;
-    height: 175px;
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6,
+.box-7,
+.box-8,
+.box-9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #6A8988;
-    margin: 10px 80px 6px 10px;
+    margin: 10px;
     border-radius: 20px;
-    position: relative;
     padding: 2px 10px 1px;
 }
 
-.box__two {
+.box-1 {
     width: 390px;
     height: 175px;
-    border-radius: 20px;
-    margin: 10px 80px 6px 10px;
-    background-color: #6A8988;
-    position: relative;
-    padding: 2px 10px 1px;
 }
 
-.box__three {
+.box-2 {
+    width: 390px;
+    height: 175px;
+}
+
+.box-3 {
     width: 420px;
     height: 390px;
-    background-color: #6A8988;
-    margin: 10px;
-    border-radius: 20px;
-    position: relative;
-    padding: 2px 10px 1px;
 }
 
-.box__4 {
+.box-4 {
     width: 390px;
     height: 175px;
-    background-color: #6A8988;
-    margin: 80px 80px 6px 10px;
-    border-radius: 20px;
-    position: relative;
-    padding: 2px 10px 1px;
 }
 
-.box__5 {
+.box-5 {
     width: 175px;
     height: 175px;
-    background-color: #6A8988;
-    margin: 10px;
-    border-radius: 20px;
-    position: relative;
-    padding: 2px 10px 1px;
 }
 
-.box__6 {
+.box-6 {
     width: 175px;
     height: 175px;
-    background-color: #6A8988;
-    margin: 10px;
-    border-radius: 20px;
-    position: relative;
-    padding: 2px 10px 1px;
 }
 
-.box__7 {
+.box-7 {
     width: 390px;
     height: 175px;
-    background-color: #6A8988;
-    margin: 10px 80px 6px 10px;
-    border-radius: 20px;
-    position: relative;
-    padding: 2px 10px 1px;
 }
 
-.box__8 {
+.box-8 {
     width: 175px;
     height: 175px;
-    background-color: #6A8988;
-    margin: 10px;
-    border-radius: 20px;
-    position: relative;
-    padding: 2px 10px 1px;
 }
 
-.box__9 {
+.box-9 {
     width: 175px;
     height: 175px;
-    background-color: #6A8988;
-    margin: 10px;
-    border-radius: 20px;
-    position: relative;
-    padding: 2px 10px 1px;
 }
 
 .page-footer {
@@ -368,7 +335,8 @@ body {
     bottom: 0;
     right: 0;
 }
-.text_footer{
+
+.text_footer {
     margin-block-start: 100px;
     margin-block-end: 2px;
     margin-inline-start: 10px;
@@ -386,7 +354,7 @@ body {
 
 @media screen and (max-width: 1200px) {
 
-    .header__menu__link{
+    .header__menu__link {
         font-family: 'Ysabeau Infant', sans-serif;
         align-items: left;
         font-weight: 100;
@@ -408,7 +376,6 @@ body {
         left: 0;
         background-color: #475d5b;
     }
-
 
     .main__content {
         display: flex;
@@ -502,10 +469,9 @@ body {
     }
 }
 
-
 @media screen and (max-width: 1200px) {
 
-    .suggestions__text{
+    .suggestions__text {
         font-family: 'Ysabeau Infant', sans-serif;
         font-weight: 100;
         font-size: 19px;
@@ -515,8 +481,8 @@ body {
         margin-block-start: 0px;
         margin-top: inherit;
     }
-    
-    .suggestions__link{
+
+    .suggestions__link {
         font-family: 'Ysabeau Infant', sans-serif;
         font-weight: 100;
         font-size: 15px;
@@ -526,6 +492,7 @@ body {
         border-radius: 8px;
         text-decoration: none;
     }
+
     .title_content_index {
         display: flex;
         flex-direction: inherit;
@@ -562,100 +529,68 @@ body {
         flex-wrap: wrap;
     }
 
-    .box__one {
-        width: 300px;
-        height: 170px;
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4,
+    .box-5,
+    .box-6,
+    .box-7,
+    .box-8,
+    .box-9 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: #6A8988;
-        margin: 9px;
+        margin: 10px;
         border-radius: 20px;
-        position: relative;
         padding: 2px 10px 1px;
     }
 
-    .box__two {
+    .box-1 {
         width: 300px;
         height: 170px;
-        background-color: #6A8988;
-        margin: 9px;
-        border-radius: 20px;
-        position: relative;
-        padding: 2px 10px 1px;
     }
 
-    .box__three {
+    .box-2 {
+        width: 300px;
+        height: 170px;
+    }
+
+    .box-3 {
         width: 310px;
         height: 290px;
-        background-color: #6A8988;
-        margin: 10px;
-        border-radius: 20px;
-        position: relative;
-        padding: 2px 10px 1px;
     }
 
-    .box__4 {
+    .box-4 {
         width: 300px;
         height: 170px;
-        background-color: #6A8988;
-        margin: 10px;
-        border-radius: 20px;
-        position: relative;
-        padding: 2px 10px 1px;
     }
 
-    .box__5 {
+    .box-5 {
         width: 120px;
         height: 120px;
-        background-color: #6A8988;
-        margin: 10px;
-        border-radius: 20px;
-        position: relative;
-        padding: 2px 10px 1px;
     }
 
-    .box__6 {
+    .box-6 {
         width: 120px;
         height: 120px;
-        background-color: #6A8988;
-        margin: 10px;
-        border-radius: 20px;
-        position: relative;
-        padding: 2px 10px 1px;
     }
 
-    .row {
-        display: inline-flex;
-    }
-
-    .box__7 {
+    .box-7 {
         width: 300px;
         height: 170px;
-        background-color: #6A8988;
-        margin: 10px;
-        border-radius: 20px;
-        position: relative;
-        padding: 10px;
     }
 
-    .box__8 {
+    .box-8 {
         width: 120px;
         height: 120px;
-        background-color: #6A8988;
-        margin: 10px;
-        border-radius: 20px;
-        position: relative;
-        padding: 2px 10px 1px;
     }
 
-    .box__9 {
+    .box-9 {
         width: 120px;
         height: 120px;
-        background-color: #6A8988;
-        margin: 10px;
-        border-radius: 20px;
-        position: relative;
-        padding: 2px 10px 1px;
     }
-
 }
 
 @media screen and (max-width: 1200px) {
@@ -670,9 +605,10 @@ body {
         text-align: right;
         position: relative;
         bottom: 0;
-        top:100%;
+        top: 100%;
     }
-    .text_footer{
+
+    .text_footer {
         font-size: 1.2rem;
         line-height: 1.1;
         margin: 10px;
@@ -681,6 +617,7 @@ body {
         margin-block-start: 340px;
         margin-inline-end: 0px;
     }
+
     .link__footer {
         color: #042630;
         font-family: 'Ysabeau Infant', sans-serif;
