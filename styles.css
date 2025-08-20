@@ -41,9 +41,8 @@ body {
 }
 
 .header__about {
-    padding: 41px 943px 18px 59px;
     display: flex;
-    align-items: left;
+    align-items: center;
     width: 100%;
     height: 10vh;
     background-color: #475d5b;
@@ -53,7 +52,6 @@ body {
     top: 0;
     left: 0;
     text-align: left;
-    text-decoration: none;
 }
 
 .nav_textmenu__link {
@@ -74,7 +72,11 @@ body {
 }
 
 .main__content_index {
-    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 20px 20px;
+    padding: 0 20px;
 }
 
 .suggestions__text {
@@ -99,7 +101,7 @@ body {
 .box-content {
     width: 530px;
     height: 400px;
-    margin: 200px 50px 300px 610px;
+    margin: 120px auto 20px;
     border-radius: 8px;
     background-color: #CFDFDB;
 }
@@ -118,21 +120,15 @@ body {
 
 .title_content_index {
     display: flex;
-    flex-direction: inherit;
     font-family: 'Ysabeau Infant', sans-serif;
     font-weight: 100;
     color: #FFFFFE;
     font-size: 25px;
     line-height: 1;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
-    margin: 0px 30px 1px 10px;
-    margin-block-start: 0px;
-    margin-inline-start: 120px;
-    position: sticky;
-    top: 20px;
-    bottom: 12px;
-    left: 115px;
+    margin: 20px auto;
+    text-align: center;
 }
 
 .text__about {
@@ -245,9 +241,7 @@ body {
     flex-wrap: wrap;
     width: 980px;
     height: 870px;
-    left: 230px;
-    position: relative;
-    margin-top: 30px;
+    margin: 30px auto 0;
     border-radius: 8px;
     background-color: #CFDFDB;
 }
@@ -331,9 +325,8 @@ body {
     line-height: 1.1;
     text-decoration: none;
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    margin-top: 40px;
+    width: 100%;
 }
 
 .text_footer {
@@ -353,10 +346,9 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-
     .header__menu__link {
         font-family: 'Ysabeau Infant', sans-serif;
-        align-items: left;
+        align-items: center;
         font-weight: 100;
         font-size: 19px;
         line-height: 1;
@@ -367,14 +359,15 @@ body {
 
     .aside__menu {
         display: flex;
-        justify-content: left;
+        justify-content: center;
         width: 100%;
         height: 40px;
-        position: absolute;
+        position: fixed;
         padding: 14px;
         top: 0;
         left: 0;
         background-color: #475d5b;
+        z-index: 1000;
     }
 
     .main__content {
@@ -384,149 +377,159 @@ body {
         padding: 0 14px;
     }
 
+    .main__content_index {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 60px 20px 20px;
+        padding: 0 20px;
+    }
+
     .box-content {
-        display: inline-block;
-        width: 300px;
-        height: 475px;
-        margin: 0px;
-        justify-content: space-between;
+        display: block;
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+        margin: 20px auto;
         border-radius: 8px;
         background-color: #CFDFDB;
+    }
+
+    .box__content_index {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        width: 95%;
+        max-width: 500px;
+        height: auto;
+        margin: 20px auto;
+        border-radius: 8px;
+        background-color: #CFDFDB;
+        padding: 20px;
+    }
+
+    .title_content_index {
+        display: flex;
+        font-family: 'Ysabeau Infant', sans-serif;
+        font-weight: 100;
+        color: #FFFFFE;
+        font-size: 22px;
+        line-height: 1;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        text-align: center;
     }
 
     .text__about {
         color: #042630;
         font-family: 'Ysabeau Infant', sans-serif;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 300;
-        line-height: 1;
+        line-height: 1.2;
         padding: 6px 3px 0px 3px;
-        display: inherit;
-        margin-block: 0px;
-        margin-block-start: 0px;
-        margin-block-end: 0px;
-        margin-inline-end: 0px;
-        margin-inline-start: 0px;
+        display: block;
+        margin: 10px 0;
     }
 
     p.paragrafo {
-        margin-bottom: 0px;
-        display: flex;
+        margin: 10px 0;
+        display: block;
         padding: 0px;
-        margin-block-start: 6px;
-        margin-block-end: 0px;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
     }
-}
 
-@media screen and (max-width: 1200px) {
     .forms__curadoria {
-        display: inline-flex;
-        width: 300px;
-        height: 300px;
+        display: flex;
         flex-direction: column;
-        justify-content: center;
-        margin-top: 20px;
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 8px;
+        background-color: #6A8988;
     }
 
     .text_label__form {
         font-family: 'Ysabeau Infant', sans-serif;
         font-weight: 400;
         line-height: 1.3;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         color: #FFFFFE;
-        margin: 3px 3px 0px 10px;
+        margin: 10px 0 5px 0;
     }
 
     .inputs__forms {
         font-family: 'Ysabeau Infant', sans-serif;
         font-weight: 400;
         line-height: 1;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         background: #CFDFDB;
         border-radius: 8px;
-        border-color: transparent;
-        text-decoration: none;
-        position: static;
+        border: none;
+        padding: 8px;
+        margin: 0 0 15px 0;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .inputs__textarea {
         font-family: 'Ysabeau Infant', sans-serif;
         font-weight: 400;
-        line-height: 1;
-        font-size: 1.2rem;
+        line-height: 1.2;
+        font-size: 1.1rem;
         background: #CFDFDB;
         border-radius: 8px;
-        border-color: transparent;
-        text-decoration: none;
-        position: static;
-        resize: none;
+        border: none;
+        padding: 8px;
+        margin: 0 0 15px 0;
+        width: 100%;
+        min-height: 60px;
+        resize: vertical;
+        box-sizing: border-box;
     }
 
     .button__forms {
-        justify-content: baseline;
+        display: flex;
+        justify-content: center;
+        background-color: #CFDFDB;
+        border-radius: 8px;
+        border: none;
+        padding: 10px 20px;
+        margin: 10px auto 0;
+        cursor: pointer;
     }
-}
-
-@media screen and (max-width: 1200px) {
 
     .suggestions__text {
         font-family: 'Ysabeau Infant', sans-serif;
         font-weight: 100;
-        font-size: 19px;
-        line-height: 1;
+        font-size: 16px;
+        line-height: 1.2;
         color: #FFFFFE;
         text-decoration: none;
-        margin-block-start: 0px;
-        margin-top: inherit;
+        margin: 5px 0;
+        text-align: center;
     }
 
     .suggestions__link {
         font-family: 'Ysabeau Infant', sans-serif;
         font-weight: 100;
-        font-size: 15px;
+        font-size: 14px;
         line-height: 1;
         color: #042630;
         background-color: #CFDFDB;
         border-radius: 8px;
         text-decoration: none;
-    }
-
-    .title_content_index {
-        display: flex;
-        flex-direction: inherit;
-        font-family: 'Ysabeau Infant', sans-serif;
-        font-weight: 100;
-        color: #FFFFFE;
-        font-size: 25px;
-        line-height: 1;
-        justify-content: left;
-        align-items: center;
-        margin: 0px 30px 1px 10px;
-        margin-block-start: 0px;
-        margin-inline-start: 60px;
-        margin-inline-end: 2px;
-        position: sticky;
-        top: 20px;
-        bottom: 12px;
-        left: 115px;
-    }
-
-    .box__content_index {
-        display: inline-block;
-        box-sizing: border-box;
-        width: 100%;
-        height: 100%;
-        left: 5%;
-        right: 0px;
-        border-radius: 8px;
-        background-color: #CFDFDB;
+        padding: 2px 4px;
     }
 
     .box_curadoria {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         box-sizing: border-box;
-        flex-wrap: wrap;
+        width: 100%;
     }
 
     .box-1,
@@ -544,84 +547,35 @@ body {
         background-color: #6A8988;
         margin: 10px;
         border-radius: 20px;
-        padding: 2px 10px 1px;
+        padding: 15px 10px;
+        width: 90%;
+        max-width: 300px;
+        min-height: 100px;
     }
 
-    .box-1 {
-        width: 300px;
-        height: 170px;
-    }
-
-    .box-2 {
-        width: 300px;
-        height: 170px;
-    }
-
-    .box-3 {
-        width: 310px;
-        height: 290px;
-    }
-
-    .box-4 {
-        width: 300px;
-        height: 170px;
-    }
-
-    .box-5 {
-        width: 120px;
-        height: 120px;
-    }
-
-    .box-6 {
-        width: 120px;
-        height: 120px;
-    }
-
-    .box-7 {
-        width: 300px;
-        height: 170px;
-    }
-
-    .box-8 {
-        width: 120px;
-        height: 120px;
-    }
-
-    .box-9 {
-        width: 120px;
-        height: 120px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
     .page-footer {
         color: #042630;
-        padding: 5px 0px 0px 0px;
+        padding: 20px;
         font-family: 'Ysabeau Infant', sans-serif;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         font-weight: 100;
         line-height: 1.1;
         text-decoration: none;
-        text-align: right;
-        position: relative;
-        bottom: 0;
-        top: 100%;
+        text-align: center;
+        margin-top: 40px;
+        width: 100%;
     }
 
     .text_footer {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         line-height: 1.1;
-        margin: 10px;
-        position: relative;
-        margin-block-end: 20px;
-        margin-block-start: 340px;
-        margin-inline-end: 0px;
+        margin: 10px 0;
     }
 
     .link__footer {
         color: #042630;
         font-family: 'Ysabeau Infant', sans-serif;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         line-height: 1.1;
         text-decoration: none;
     }
